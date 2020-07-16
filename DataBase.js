@@ -1,4 +1,3 @@
-
   // Your web app's Firebase configuration
   export const firebaseConfig = {
     apiKey: "AIzaSyDNLOX42rPY6hATA0lzXneM-NBJdVh8QFc",
