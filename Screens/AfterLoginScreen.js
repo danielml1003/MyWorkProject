@@ -20,7 +20,7 @@ export const AfterLoginScreen = ({ navigation }) => {
     onPress = {() => {navigation.navigate("WorkerList")}}
      />
     <Button 
-        title = "new screen"
+        title = "delete"
         onPress = {() => navigation.navigate("FindById")}
         
     />
