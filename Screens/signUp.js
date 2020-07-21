@@ -30,7 +30,7 @@ export const signUp = ({ navigation }) => {
         onChangeText = {(password) => setPassword (password)} ></TextInput>
         <TextInput style = {styles.input} placeholder = "repassword "></TextInput>
         <Button title = {"sign up"}
-        onPress = {() => CreateUser(email, password)}/>
+        onPress = {() => CreateUser(email, password, navigation)}/>
         <Button title = {"back"}
         onPress = {() => {navigation.navigate("Home"); }} />
     </View>

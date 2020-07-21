@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 import {View, Text, TextInput, Button} from 'react-native';
 import { styles } from '../Style/style';
-
-
-
+import { signOutAsync } from 'expo-google-sign-in';
+import { SignOut } from '../api/userApi';
 
 
 export const AfterLoginScreen = ({ navigation }) => {
@@ -27,6 +26,11 @@ export const AfterLoginScreen = ({ navigation }) => {
     <Button 
         title = "update worker"
         onPress = {() => navigation.navigate("UpdateEmp")}
+    />
+
+    <Button 
+        title = "sign out"
+        onPress = {() => SignOut()}
     />
 
         

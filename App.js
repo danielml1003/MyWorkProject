@@ -15,7 +15,7 @@ import { LoadingScreen } from './Screens/LoadingScreen'
 firebase.initializeApp(firebaseConfig)
 
 const AuthSwitch = createSwitchNavigator({
-  LoadingScreen:LoadingScreen,
+  LoadingScreen: LoadingScreen,
   Home: Home, 
   signUp: signUp,
   AfterLoginScreen: AfterLoginScreen,
